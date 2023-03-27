@@ -38,10 +38,10 @@ After you're finished please remove all the comments and instructions!
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
+  <!-- - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -69,9 +69,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- Features -->
 
-<!-- <!-- ### Key Features <a name="key-features"></a> -->
+ <!-- ### Key Features <a name="key-features"></a> -->
 
-<!-- > Describe between 1-3 key features of the application. -->
+<!-- > Describe between 1-3 key features of the application.
 
 - **[User can view the datas by using the queries from queries.sql]**
 
@@ -79,11 +79,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-<!-- <!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+## 🚀 Live Demo <a name="live-demo"></a> 
 
 > There is no live demo yet.
 
-<!-- - [Live Demo Link](<replace-with-your-deployment-URL>) -->
+<!-- - [Live Demo Link](<replace-with-your-deployment-URL>) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -176,11 +176,11 @@ Example:
 
 <!-- FUTURE FEATURES -->
 
-<!-- <!-- ## 🔭 Future Features <a name="future-features"></a> -->
+ ## 🔭 Future Features <a name="future-features"></a> 
 
 - [ ] **[add another tables and join them]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- CONTRIBUTING -->
 
