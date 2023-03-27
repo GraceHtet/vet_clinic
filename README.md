@@ -69,23 +69,21 @@ After you're finished please remove all the comments and instructions!
 
 <!-- Features -->
 
-<!-- ### Key Features <a name="key-features"></a>
+<!-- <!-- ### Key Features <a name="key-features"></a> -->
 
-> Describe between 1-3 key features of the application.
+<!-- > Describe between 1-3 key features of the application. -->
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[User can view the datas by using the queries from queries.sql]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+<!-- <!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
-> Add a link to your deployed project.
+> There is no live demo yet.
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+<!-- - [Live Demo Link](<replace-with-your-deployment-URL>) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -178,13 +176,9 @@ Example:
 
 <!-- FUTURE FEATURES -->
 
-<!-- ## 🔭 Future Features <a name="future-features"></a>
+<!-- <!-- ## 🔭 Future Features <a name="future-features"></a> -->
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[add another tables and join them]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
