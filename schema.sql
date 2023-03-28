@@ -14,3 +14,20 @@ CREATE TABLE animals (
 
 -- update table
 ALTER TABLE animals ADD COLUMN species VARCHAR(50);
+
+
+-- multi table
+CREATE TABLE owners (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    full_name VARCHAR(255) NOT NULL,
+    age INT
+);
+
+CREATE TABLE species (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL
+);
+
+ALTER TABLE animals DROP COLUMN species;
+ALTER TABLE animals ADD COLUMN species_id INT REFERENCES species(id); 
+ALTER TABLE animals ADD COLUMN owner_id INT REFERENCES owner(id);
