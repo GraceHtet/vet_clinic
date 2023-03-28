@@ -1,5 +1,6 @@
 /* Database schema to keep the structure of entire database. */
 
+--create table
 CREATE DATABASE vet_clinic;
 
 CREATE TABLE animals (
@@ -11,3 +12,5 @@ CREATE TABLE animals (
     weight_kg DECIMAL
 );
 
+-- update table
+ALTER TABLE animals ADD COLUMN species VARCHAR(50);

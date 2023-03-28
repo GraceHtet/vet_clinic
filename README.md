@@ -1,7 +1,5 @@
 # VET CLINIC
 
-## Getting Started
-
 <a name="readme-top"></a>
 
 <!--
@@ -79,11 +77,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a> 
+## 🚀 Live Demo <a name="live-demo"></a>
 
 > There is no live demo yet.
 
-<!-- - [Live Demo Link](<replace-with-your-deployment-URL>) 
+<!-- - [Live Demo Link](<replace-with-your-deployment-URL>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -176,11 +174,11 @@ Example:
 
 <!-- FUTURE FEATURES -->
 
- ## 🔭 Future Features <a name="future-features"></a> 
+## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[add another tables and join them]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
