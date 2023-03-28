@@ -36,3 +36,5 @@ SELECT * FROM animals;
 UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < -1;
 COMMIT WORK;
 SELECT * FROM animals;
+
+SELECT COUNT(*) FROM animals;
