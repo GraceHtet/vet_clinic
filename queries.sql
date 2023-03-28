@@ -15,3 +15,7 @@ BEGIN;
 ALTER TABLE animals RENAME COLUMN species TO unspecified;
 ROLLBACK;
 
+BEGIN WORK;
+UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
+UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
+COMMIT;
