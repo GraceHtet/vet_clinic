@@ -31,3 +31,25 @@ CREATE TABLE species (
 ALTER TABLE animals DROP COLUMN species;
 ALTER TABLE animals ADD COLUMN species_id INT REFERENCES species(id); 
 ALTER TABLE animals ADD COLUMN owner_id INT REFERENCES owner(id);
+
+--join table
+CREATE TABLE vets(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    age INT,
+    date_of_graduation INT
+);
+SELECT * FROM vets;
+
+CREATE TABLE specializations (
+    species_id INT REFERENCES species(id),
+    vets_id INT REFERENCES vets(id),
+    PRIMARY KEY (species_id, vets_id)
+);
+
+CREATE TABLE visits (
+    animals_id INT REFERENCES animals(id),
+    vets_id INT REFERENCES vets(id),
+    visit_date DATE NOT NULL,
+    PRIMARY KEY (animals_id, vets_id)
+);
