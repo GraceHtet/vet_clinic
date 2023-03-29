@@ -37,7 +37,7 @@ CREATE TABLE vets(
     id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     age INT,
-    date_of_graduation INT
+    date_of_graduation DATE
 );
 SELECT * FROM vets;
 
