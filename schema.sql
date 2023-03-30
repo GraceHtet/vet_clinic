@@ -53,3 +53,5 @@ CREATE TABLE visits (
     visit_date DATE NOT NULL,
     PRIMARY KEY (animals_id, vets_id,visit_date);
 );
+
+ALTER TABLE visits DROP CONSTRAINT visits_pkey;

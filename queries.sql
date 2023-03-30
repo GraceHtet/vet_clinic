@@ -44,6 +44,7 @@ SELECT MAX(escape_attempts),neutered FROM animals GROUP BY neutered;
 SELECT species,MIN(weight_kg), MAX(weight_kg) FROM animals GROUP BY species;
 SELECT species,date_of_birth,AVG(escape_attempts) FROM animals WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-01-01' GROUP BY species,date_of_birth ;
 
+-- multi table
 SELECT animals.name, owners.full_name FROM animals JOIN owners ON animals.owner_id = owners.id WHERE owners.full_name = 'Melody Pond';
 SELECT animals.name, species.name AS type FROM animals JOIN species ON animals.species_id = species.id WHERE species.name = 'Pokemon';
 SELECT owners.full_name, animals.name FROM animals RIGHT JOIN owners ON animals.owner_id = owners.id;
@@ -54,7 +55,7 @@ SELECT animals.name FROM animals JOIN owners ON animals.owner_id = owners.id WHE
 WITH countani AS (SELECT owners.full_name AS owner_name, COUNT(animals.owner_id) AS count, MAX(COUNT(owner_id)) OVER() AS maxcount FROM animals JOIN owners ON animals.owner_id = owners.id GROUP BY owners.full_name) SELECT owner_name, count FROM countani WHERE count = maxcount;
 
 
--- multi table
+-- join table
 SELECT A.name, V.name, Vi.visit_date AS vdate FROM vets V JOIN visits Vi ON V.id = Vi.vets_id JOIN animals A ON Vi.animals_id = A.id WHERE V.name = 'William Tatcher' ORDER BY vdate DESC LIMIT 1;
 
 SELECT V.name, COUNT(S.species_id) FROM vets V JOIN specializations S ON V.id = S.vets_id GROUP BY V.name HAVING V.name = 'Stephanie Mendez';
