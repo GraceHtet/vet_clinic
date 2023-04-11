@@ -73,3 +73,8 @@ VALUES (1, 1, DATE '2020-05-25'),
 (9,2, DATE '2020-08-03'),
 (10,3, DATE '2020-05-24'),
 (10,1, DATE '2021-01-11');
+
+-- indexes
+INSERT INTO visits (animals_id, vets_id, visit_date) SELECT * FROM (SELECT id FROM animals) animal_ids, (SELECT id FROM vets) vets_ids, generate_series('1980-01-01'::timestamp, '2021-01-01', '4 hours') visit_timestamp;
+
+INSERT INTO owners (full_name, email) SELECT 'Owner ' || generate_series(1,2500000), 'owner_' || generate_series(1,2500000) || '@mail.com';
