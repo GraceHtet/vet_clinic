@@ -170,6 +170,11 @@ Example:
 - Twitter: [Grace Htet](https://twitter.com/Grace_Htet4)
 - Angelist: [Grace Htet](https://wellfound.com/u/thiri-htet)
 
+👤 **Lusindiso Ntanjana**
+
+- GitHub: [Lusindiso Ntanjana](https://github.com/Lusindiso)
+- LinkedIn: [Lusindiso Ntanjana](https://www.linkedin.com/in/lusindisontanjana/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
