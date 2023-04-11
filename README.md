@@ -52,7 +52,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Vet Clinic] <a name="about-project"></a>
 
-**[Vet Clinic]** is a database project for vet clinic datas.
+**[Vet Clinic]** is a database project for vet clinic datas, using postgresSQL for database management system.It contains data about animals, clients and vet clinic employee.
+
+<img src="./img/erDiagram" align="center">.
 
 ## 🛠 Built With <a name="built-with"></a>
 
