@@ -67,13 +67,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- Features -->
 
- <!-- ### Key Features <a name="key-features"></a> -->
+### Key Features <a name="key-features"></a>
 
-<!-- > Describe between 1-3 key features of the application.
+<!-- > Describe between 1-3 key features of the application.-->
 
 - **[User can view the datas by using the queries from queries.sql]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
