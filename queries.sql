@@ -75,3 +75,10 @@ WITH view AS (SELECT S.name, V.name AS vet FROM vets V FULL JOIN visits Vi ON  V
 
 
 SELECT V.name AS vet ,S.name AS species,  COUNT(S.name) AS count FROM vets V FULL JOIN visits Vi ON  V.id = Vi.vets_id FULL JOIN animals A ON Vi.animals_id = A.id FULL JOIN species S ON S.id = A.species_id GROUP BY S.name,V.name HAVING V.name = 'Maisy Smith ' ORDER BY count DESC LIMIT 1;
+
+-- indexes
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animalS_id = 4;
+
+EXPLAIN ANALYZE SELECT * FROM visits where vets_id = 2;
+
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
