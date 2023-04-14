@@ -163,8 +163,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> I am the sole author of this project.
-
 👤 **Grace Htet**
 
 - GitHub: [Grace Htet](https://github.com/GraceHtet)
